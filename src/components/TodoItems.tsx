@@ -21,7 +21,7 @@ export default function TodoItems({todo, onCompleteChange, onDelete}: TodoItemPr
             </span>
         </label>
         <button onClick={() => onDelete(todo.id)} className="p-2">
-          <Trash2  size={20} className="to-gray-400"/>
+          <Trash2  size={20} className="to-red-400"/>
         </button>
       </div>
       )
