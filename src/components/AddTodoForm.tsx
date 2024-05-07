@@ -24,7 +24,7 @@ setInput("");
         />
         <button
         type="submit"
-        className="w-16 rounded-e-md bg-blue-800 text-white hover:bg-blue-800"
+        className="w-16 rounded-e-md bg-blue-800 text-white hover:bg-blue-600"
         >Add</button>
     </form>
   )
